@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Todo app</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section container">
+      <div class="field container">
+        <div class="content">
+          <h1>TODO</h1>
+          <img src="./images/icon-sun.svg" alt="" />
+        </div>
+        <div class="todo TODO">
+          <form method="POST">
+            <input type="text" id="text" name="text" placeholder="Create a new todo..." />
+          </form>
+          <div class="todo list">
+            <div class="todo container">
+              <div class="todo-item">
+                <div class="check">
+                  <img src="./images/icon-check.svg" alt="" />
+                </div>
+                <p>Hello</p>
+                <button class="close">
+                  <img src="./images/icon-cross.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="states">
+            <p>5 items left</p>
+            <div class="states choice">
+              <p>All</p>
+              <p>Active</p>
+              <p>Completed</p>
+            </div>
+            <p>Clear Completed </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Todo
+
+ Add dynamic number  items left
+
+  All
+  Active 
+  Completed
+
+  Clear Completed
+
+  Drag and drop to reorder list - -> -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="./script/index.js"></script>
+  </body>
+</html>
